@@ -1,0 +1,184 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*Slides*/
+	.slides{
+		text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	}
+
+/*Navbar*/
+	nav h3 {
+		margin-top: 1px;
+	}
+	.sidenav {
+		background-color: #263238; 
+	}
+
+	.sidenav li a:hover{
+		background-color: rgba(0,0,0,0.05);
+	}
+	.sidenav li > a {
+		color: #fff;
+	}
+
+/*About*/
+	.about img {
+		border-radius: 50%;
+		width: 100%;
+	}
+
+	.about .row .col {
+		padding: 0 25px;
+	}
+
+/*Education*/
+	.edu .parallax {
+		filter: grayscale(1);
+		opacity: 0.8;
+	}
+	.edu {
+		height: 20%;
+	}
+	.edu img{
+		max-width: 180px;
+		filter: drop-shadow(2px 2px 2px rgba(0,0,0,1));
+	}
+
+	.edu .row .col {
+		margin-top: 16px;
+	}
+
+/*Skill*/
+	.skills img {
+		width: 60%;
+	}
+
+	.skills .main .card-panel {
+		border-radius: 40px;
+		filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6));
+	}
+	.skills .sub .card-panel {
+		border-radius: 20px;
+		width: 100%;
+		filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6));
+	}
+	.skills .sub {
+		margin-bottom: 8px;
+	}
+
+/*Achi*/
+	.achi .card {
+		width: 100%;
+		
+	}
+
+	.achi img {
+		width: 70%;	
+	}
+
+/*Exp*/
+	.expcard h5,
+	.expcard h6,
+	.expcard p {
+		margin: 1px 0;
+	}
+
+	.expcard {
+		border-radius: 20px;
+	}
+
+	.exp .row {
+		margin-bottom: 4px;
+	}
+
+/*Gal*/
+	.gal {
+		height: 30%;
+	}
+
+	.gal .parallax {
+		filter: grayscale(1);
+		opacity: 0.8;
+	} 
+
+	.gal .row1 .col,
+	.gal .row3 .col {
+		margin: 8px 0;
+	}
+
+	.gal .row img {
+		border-radius: 20px;
+	} 
+
+/*Con*/
+	.btnn{
+	  display: inline-block;
+	  width: 90px;
+	  height: 90px;
+	  background: #37474f;
+	  margin: 10px;
+	  border-radius: 30%;
+	  box-shadow: 0 5px 15px -5px #00000070;
+	  color: #ffd54f;
+	  overflow: hidden;
+	  position: relative;
+	}
+	.btnn i{
+	  line-height: 90px;
+	  font-size: 26px;
+	  transition: 0.2s linear;
+	}
+	.btnn:hover i{
+	  transform: scale(1.3);
+	  color: #37474f;
+	}
+	.btnn::before{
+	  content: "";
+	  position: absolute;
+	  width: 120%;
+	  height: 120%;
+	  background: #ffd54f;
+	  transform: rotate(45deg);
+	  left: -110%;
+	  top: 90%;
+	}
+	.btnn:hover::before{
+	  animation: aaa 0.7s 1;
+	  top: -10%;
+	  left: -10%;
+	}
+	@keyframes aaa {
+	  0%{
+	    left: -110%;
+	    top: 90%;
+	  }50%{
+	    left: 10%;
+	    top: -30%;
+	  }100%{
+	    top: -10%;
+	    left: -10%;
+	  }
+	}
+	n
+
+/*Text Header*/
+
+	.about h3,
+	.edu h3,
+	.skills h3,
+	.achi h3,
+	.gal h3,
+	.exp h3,
+	.con h3,
+	#abh3 {
+		text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+		margin-top: 24px;
+		margin-bottom: 48px;
+	}
+
+
+/*Section*/
+	section {
+		padding: 20px 0;
+	}
