@@ -11,7 +11,7 @@ Personal Portfolio Website
 - [x] Contact Me
 
 ## Screenshots
-<img src="https://github.com/galihif/galgadut/blob/master/galihif.github.io_galgadut_.png?raw=true"
+<img src="https://github.com/galihif/galgadut/blob/master/device.png?raw=true"
      alt="Home Screen"
      style="float: left; margin-right: 10px;"
      width="400" />
