@@ -14,4 +14,4 @@ Personal Portfolio Website
 <img src="https://github.com/galihif/galgadut/blob/master/device.png?raw=true"
      alt="Home Screen"
      style="float: left; margin-right: 10px;"
-     width="400" />
+     width="600" />
